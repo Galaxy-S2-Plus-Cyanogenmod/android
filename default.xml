@@ -24,6 +24,7 @@
   <project path="android" name="Galaxy-S2-Plus-Cyanogenmod/android" remote="github" revision="cm-10.2" />
   
   <project path="device/samsung/s2vep" name="Galaxy-S2-Plus-Cyanogenmod/android_device_samsung_s2vep" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/s2ve" name="Galaxy-S2-Plus-Cyanogenmod/android_device_samsung_s2ve" remote="github" revision="cm-10.2" />
   <project path="kernel/samsung/s2vep" name="Galaxy-S2-Plus-Cyanogenmod/android_kernel_samsung_s2vep" remote="github" revision="cm-10.1_base-4.2" />
   <project path="vendor/samsung" name="Galaxy-S2-Plus-Cyanogenmod/proprietary_vendor_samsung" remote="github" revision="master" />
   <project path="device/samsung/galaxys2plus-common" name="Galaxy-S2-Plus-Cyanogenmod/android_device_samsung_galaxys2plus-common" remote="github" revision="cm-10.2" />

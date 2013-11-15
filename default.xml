@@ -29,6 +29,8 @@
   <project path="vendor/samsung" name="SamsungBCM-Cyanogenmod/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
   <project path="device/samsung/bcm-common" name="SamsungBCM-Cyanogenmod/android_device_samsung_bcm-common" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/baffin" name="SamsungBCM-Cyanogenmod/android_device_samsung_baffin" remote="github" revision="cm-10.2" />
+  <project path="kernel/samsung/baffin" name="SamsungBCM-Cyanogenmod/android_kernel_samsung_baffin" remote="github" revision="cm-10.2" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />

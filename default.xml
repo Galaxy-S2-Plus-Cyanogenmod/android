@@ -215,8 +215,7 @@
   <project path="external/neven" name="CyanogenMod/android_external_neven" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4_r2" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
-  <!-- apparently, requesting the tag is randomly returning bad results on this  one... fix whenever we update tags. see prebuilts/sdk -->
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="90372d894b5d9c9f2a111315d2eb3b8de1979ee4" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4_r2" />
@@ -338,7 +337,7 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
@@ -408,7 +407,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
-  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4_r2" groups="pdk" />
+  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4_r1.2" groups="pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r2" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r2" />
@@ -453,8 +452,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4_r2" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4_r2" groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4_r2" />
-  <!-- apparently, requesting the tag is randomly returning bad results on this  one... fix whenever we update tags. see external/noto-fonts -->
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" groups="pdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4_r1.2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4_r2" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />

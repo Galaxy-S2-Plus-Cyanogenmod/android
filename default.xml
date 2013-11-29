@@ -23,6 +23,10 @@
 
   <project path="android" name="SamsungBCM-Cyanogenmod/android" remote="github" revision="cm-10.2" />
   
+  <project path="buildscripts" name="SamsungBCM-Cyanogenmod/buildscripts" remote="github" revision="master" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
+  
   <project path="device/samsung/s2vep" name="SamsungBCM-Cyanogenmod/android_device_samsung_s2vep" remote="github" revision="cm-10.2" />
   <project path="device/samsung/s2ve" name="SamsungBCM-Cyanogenmod/android_device_samsung_s2ve" remote="github" revision="cm-10.2" />
   <project path="kernel/samsung/galaxys2plus-common" name="SamsungBCM-Cyanogenmod/android_kernel_samsung_galaxys2plus-common" remote="github" revision="cm-10.2" />

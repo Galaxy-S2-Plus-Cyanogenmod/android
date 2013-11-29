@@ -39,5 +39,19 @@ Then to sync up:
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+Building
+---------------
+
+Enter this command:
+
+    ./build.sh
+
+Then choose the device/devices you want to compile for:
+
+    1 = Galaxy S2 Plus NFC (s2vep)
+    2 = Galaxy S2 Plus (s2ve)
+    3 = Galaxy Grand Duos (baffin)
+    12 = Galaxy S2 Plus NFC (s2vep) + Galaxy S2 Plus (s2ve)
+    13 = Galaxy S2 Plus NFC (s2vep) + Galaxy Grand Duos (baffin)
+    23 = Galaxy S2 Plus (s2ve) + Galaxy Grand Duos (baffin)
+    123 = Galaxy S2 Plus NFC (s2vep) + Galaxy S2 Plus (s2ve) + Galaxy Grand Duos (baffin)
